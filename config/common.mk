@@ -129,6 +129,10 @@ DEVICE_PACKAGE_OVERLAYS += vendor/iron/overlay/common
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/iron/config/partner_gms.mk
 
+# Hide nav Overlays
+PRODUCT_PACKAGES += \
+    NavigationBarModeGesturalOverlayFS 
+
 # Versioning
 include vendor/iron/config/version.mk
 
