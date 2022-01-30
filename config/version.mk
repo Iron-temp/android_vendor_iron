@@ -15,7 +15,7 @@
 
 # Versioning System
 IRON_CODENAME := MacteAnimo
-IRON_NUM_VER := 2.1
+IRON_NUM_VER := 2.2
 
 TARGET_PRODUCT_SHORT := $(subst iron_,,$(IRON_BUILD_TYPE))
 
