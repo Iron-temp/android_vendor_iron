@@ -41,6 +41,10 @@
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
     </privapp-permissions>
 
+    <privapp-permissions package="com.android.settings">
+        <permission name="android.permission.MANAGE_APP_LOCK" />
+    </privapp-permissions>
+
     <privapp-permissions package="com.android.systemui">
         <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
         <permission name="com.android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
